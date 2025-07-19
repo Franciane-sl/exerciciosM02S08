@@ -1,0 +1,25 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(5, 150, 5);
+
+}
+
+.navBar ul {
+    display: flex; 
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navBar a:hover {
+    color: rgb(195, 241, 195);
+    text-decoration: underline;
+}
