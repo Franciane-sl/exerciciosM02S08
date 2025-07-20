@@ -1,5 +1,8 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/navbar/Navbar'
+import SobreNos from './components/SobreNos/sobreNos'
+
+
 function App() {
   
 
@@ -10,6 +13,8 @@ function App() {
       <p>Economize com o sol. Invista no seu futuro!</p>
     </header>
      <Navbar />
+     <SobreNos/>
+     
     
     </>
   )
