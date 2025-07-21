@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Orcamento from './components/Orcamento/Orcamento'
 import PorQueInvestir from './components/PorQueInvestir/PorQueInvestir'
@@ -25,6 +26,7 @@ function App() {
         <Orcamento/>
       </article>
     </main>
+    <Footer/>
     </>
   )
 }
