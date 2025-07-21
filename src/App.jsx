@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import Orcamento from './components/Orcamento/Orcamento'
 import PorQueInvestir from './components/PorQueInvestir/PorQueInvestir'
 import Produtos from './components/Produtos/Produtos'
 import SobreNos from './components/SobreNos/sobreNos'
@@ -21,6 +22,7 @@ function App() {
         <SobreNos/>
         <PorQueInvestir/>
         <Produtos/>
+        <Orcamento/>
       </article>
     </main>
     </>
