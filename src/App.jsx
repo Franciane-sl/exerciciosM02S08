@@ -1,6 +1,7 @@
 import './App.css'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import PorQueInvestir from './components/PorQueInvestir/PorQueInvestir'
+import Produtos from './components/Produtos/Produtos'
 import SobreNos from './components/SobreNos/sobreNos'
 
 
@@ -14,11 +15,14 @@ function App() {
       <h1>Energia Solar 365</h1>
       <p>Economize com o sol. Invista no seu futuro!</p>
     </header>
-     <Navbar/>
-     <SobreNos/>
-     <PorQueInvestir/>
-     
-    
+    <main>
+      <article>
+        <Navbar/>
+        <SobreNos/>
+        <PorQueInvestir/>
+        <Produtos/>
+      </article>
+    </main>
     </>
   )
 }
