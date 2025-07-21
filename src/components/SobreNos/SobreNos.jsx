@@ -3,9 +3,7 @@ import './SobreNos.css'
 function SobreNos() {
     return (
         <>
-    <main id='sobre'>
-      <article >
-        <section className='secaoSobre'>
+        <section className='secaoSobre' id='sobre'>
         <h2>Sobre Nós</h2>
         <p>A<strong> Energia Solar 365 </strong>é uma empresa especializada no desenvolvimento e implantação de soluções completas em energia solar fotovoltaica. Atuamos com excelência em projetos residenciais, comerciais, industriais e rurais, promovendo eficiência energética, economia e sustentabilidade.</p>
         <p>Nossa missão é fornecer soluções em energia solar que aliem inovação, qualidade e responsabilidade socioambiental, contribuindo para a construção de um modelo energético mais limpo, acessível e eficiente. Almejamos ser reconhecidos nacionalmente como referência em energia solar, destacando-nos pela confiabilidade, tecnologia aplicada e compromisso com a sustentabilidade e a satisfação do cliente.</p>
@@ -22,8 +20,6 @@ function SobreNos() {
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ah66LDqcQoSKLDG0gVDYR1S1fvEQsgkgow&s" alt="" />
         </figure>
         </section>
-      </article>
-     </main>
      </>
     )   
 }
