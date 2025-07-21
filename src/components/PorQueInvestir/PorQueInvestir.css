@@ -1,0 +1,41 @@
+.pqinvestir {
+  padding: 60px 5%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.pqinvestir h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: green;
+}
+
+.pqinvestir ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pqinvestir li {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  position: relative;
+  padding-left: 25px;
+}
+
+.pqinvestir li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #28a745; 
+  font-weight: bold;
+}
+
+.pqinvestir p {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  padding-left: 25px;
+}
